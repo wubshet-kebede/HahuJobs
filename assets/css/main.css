@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+
+.landing {
+  background-size: cover;
+  background-position: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+html {
+  scroll-behavior: smooth;
+}
