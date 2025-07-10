@@ -9,7 +9,7 @@ const props = defineProps({
 <template>
   <div class="flex flex-col xl:flex-1 lg:w-[50vw] xl:w-full justify-between">
     <p
-      class="mt-12 flex-1 text-base text-justify font-normal leading-7 dark:text-hahu-gray 3xl:text-lg indent-5 mr-10 text-hahu-gray2"
+      class="mt-12 flex-1 text-base text-justify font-normal leading-7 dark:text-hahu-gray 3xl:text-lg indent-5 text-hahu-gray2"
     >
       {{ item.text }} <br />
       <br />
