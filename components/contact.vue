@@ -1,7 +1,7 @@
 <script setup>
 import { useContact } from "~/composables/userContact";
 import { LMarker, LPopup } from "#components";
-import branch from "./branch.vue";
+import Branch from "./Branch.vue";
 const { contacts } = useContact();
 const { branchcontact } = useBranch();
 </script>
@@ -97,7 +97,7 @@ const { branchcontact } = useBranch();
                 <ul
                   class="mt-8 grid w-full grid-cols-1 items-center justify-items-end gap-x-4 gap-y-9 xs:gap-x-28 xs:grid-cols-2 md:grid-cols-3 lg:gap-x-16 3xl:gap-x-28"
                 >
-                  <branch v-for="branch in branchcontact" :branch="branch" />
+                  <Branch v-for="branch in branchcontact" :branch="branch" />
                 </ul>
               </div>
             </div>
