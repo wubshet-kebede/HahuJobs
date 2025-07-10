@@ -20,7 +20,7 @@ function closeModal() {
 </script>
 <template>
   <section
-    class="mt-10 flex flex-col md:px-16 lg:px-16 px-1 3xl:px-[100px] lg:mx-10 xl:mx-20 2xl:mx-20 3xl:mx-20"
+    class="mt-10 flex flex-col md:px-16 lg:px-16 px-1 3xl:px-[100px] lg:mx-10 xl:mx-20 2xl:mx-20 3xl:mx-20 mx-5"
   >
     <div
       class="relative mb-10 flex items-start justify-between font-bold mx-10"
@@ -79,7 +79,7 @@ function closeModal() {
       Founders
     </h2>
     <div
-      class="mt-32 flex flex-col items-center gap-y-20 xl:flex-row xl:justify-center xl:gap-x-[74px]"
+      class="mt-32 flex flex-col items-center gap-y-20 xl:flex-row xl:justify-center xl:gap-x-[74px] mx-2"
     >
       <Founder v-for="founder in founders" :founder="founder" />
     </div>
@@ -89,7 +89,7 @@ function closeModal() {
       Technical advisors
     </h2>
     <div
-      class="mt-32 grid grid-cols-1 lg:grid-cols-3 2xl:grid-cols-4 gap-x-10 gap-y-20 justify-items-center place-content-center"
+      class="mt-32 grid grid-cols-1 lg:grid-cols-3 2xl:grid-cols-4 gap-x-10 gap-y-20 justify-items-center place-content-center mx-3"
     >
       <Advisor
         v-for="advisor in advisors"
