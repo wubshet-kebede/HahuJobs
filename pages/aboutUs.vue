@@ -28,7 +28,7 @@ function closeModal() {
           class="flex rounded-md bg-white space-x-4 dark:bg-light-dark xs:px-6 shadow px-4"
         >
           <li class="flex">
-            <div class="flex items-center px-4 py-3">
+            <div class="flex items-center px-1 py-3">
               <a href="/" class="text-gray-400 hover:text-gray-500">
                 <icon name="ic:round-home" class="text-primary text-2xl" />
                 <span class="sr-only">Home</span>
