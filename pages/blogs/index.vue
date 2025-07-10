@@ -73,7 +73,7 @@ watch(
         @click="$router.push({ hash: menu.to })"
         :class="[
           'mt-5 lg:mt-5 rounded-md px-4 py-2 text-sm font-bold leading-5',
-          'bg-hahu-gray4 bg-opacity-80 text-gray-400 cursor-pointer',
+          ' bg-opacity-80 text-gray-400 cursor-pointer',
           activeTab === menu.to ? 'bg-hahugray6 text-primary' : '',
         ]"
       >
