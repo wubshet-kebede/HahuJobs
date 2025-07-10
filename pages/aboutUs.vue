@@ -77,7 +77,7 @@ function closeModal() {
       Founders
     </h2>
     <div
-      class="mt-32 flex flex-col items-center gap-y-20 xl:flex-row xl:justify-center xl:gap-x-[74px] mx-2"
+      class="mt-32 flex flex-col items-center gap-y-20 xl:flex-row xl:justify-center xl:gap-x-[74px]"
     >
       <Founder v-for="founder in founders" :founder="founder" />
     </div>
@@ -87,7 +87,7 @@ function closeModal() {
       Technical advisors
     </h2>
     <div
-      class="mt-32 grid grid-cols-1 lg:grid-cols-3 2xl:grid-cols-4 gap-x-10 gap-y-20 justify-items-center place-content-center mx-3"
+      class="mt-32 grid grid-cols-1 lg:grid-cols-3 2xl:grid-cols-4 gap-x-10 gap-y-20 justify-items-center place-content-center"
     >
       <Advisor
         v-for="advisor in advisors"
