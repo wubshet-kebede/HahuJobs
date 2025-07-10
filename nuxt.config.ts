@@ -79,4 +79,7 @@ export default defineNuxtConfig({
     disallow: ["/Team", "/aboutUs"],
     allow: "/reports",
   },
+  nitro: {
+    preset: "node-server",
+  },
 });
