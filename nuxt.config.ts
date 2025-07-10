@@ -76,7 +76,6 @@ export default defineNuxtConfig({
     anchorPlacement: "top-bottom",
   },
   robots: {
-    disallow: ["/Team", "/aboutUs"],
-    allow: "/reports",
+    allow: "/**",
   },
 });
