@@ -20,7 +20,7 @@ function closeModal() {
 </script>
 <template>
   <section
-    class="mt-10 flex flex-col md:px-16 lg:px-16 px-1 3xl:px-[100px] lg:mx-10 xl:mx-20 2xl:mx-20 3xl:mx-20 mx-5"
+    class="mt-10 flex flex-col md:px-16 lg:px-16 px-1 3xl:px-[100px] lg:mx-10 xl:mx-20 2xl:mx-20 3xl:mx-20 mx-10"
   >
     <div class="relative mb-10 flex items-start justify-between font-bold">
       <nav class="flex">
