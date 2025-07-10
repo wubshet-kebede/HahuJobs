@@ -22,9 +22,7 @@ function closeModal() {
   <section
     class="mt-10 flex flex-col md:px-16 lg:px-16 px-1 3xl:px-[100px] lg:mx-10 xl:mx-20 2xl:mx-20 3xl:mx-20 mx-5"
   >
-    <div
-      class="relative mb-10 flex items-start justify-between font-bold mx-10"
-    >
+    <div class="relative mb-10 flex items-start justify-between font-bold">
       <nav class="flex">
         <ol
           class="flex rounded-md bg-white space-x-4 dark:bg-light-dark xs:px-6 shadow px-4"
@@ -53,7 +51,7 @@ function closeModal() {
         </ol>
       </nav>
 
-      <div class="flex mx-10">
+      <div class="flex">
         <a href="/">
           <button
             class="group flex text-white bg-primary rounded-md items-center self-end justify-end cursor-pointer px-2 py-1 text-base font-medium leading-6 lg:px-5 lg:py-3"
