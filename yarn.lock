@@ -8359,7 +8359,7 @@ unhead@2.0.10:
   dependencies:
     hookable "^5.5.3"
 
-unhead@2.0.12:
+unhead@2.0.12, unhead@^2.0.12:
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/unhead/-/unhead-2.0.12.tgz#70ad5a098890c8de493994b3ee354bc84f173264"
   integrity sha512-5oo0lwz81XDXCmrHGzgmbaNOxM8R9MZ3FkEs2ROHeW8e16xsrv7qXykENlISrcxr3RLPHQEsD1b6js9P2Oj/Ow==
