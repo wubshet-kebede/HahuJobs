@@ -13,7 +13,7 @@ const props = defineProps({
     :data-aos-delay="index * 100"
     data-aos-duration="1200"
     data-aos-easing="ease-in-out"
-    class="flex max-w-[560px] h-full flex-col bg-white hover:bg-transparent dark:bg-hahu-gray1 dark:hover:bg-transparent rounded-xl group delay-0"
+    class="flex max-w-[570px] h-full flex-col bg-white hover:bg-transparent dark:bg-hahu-gray1 dark:hover:bg-transparent rounded-xl group delay-0"
   >
     <a
       :href="blog.link"
