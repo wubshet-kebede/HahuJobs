@@ -1,5 +1,5 @@
 <script setup>
-import founder from "~/components/aboutUs/founder.vue";
+import Founder from "~/components/aboutUs/Founder.vue";
 import Advisor from "@/components/aboutUs/Advisor.vue";
 import about_desc from "@/components/aboutUs/about_desc.vue";
 import { Dialog, DialogPanel, DialogTitle } from "@headlessui/vue";
@@ -81,7 +81,7 @@ function closeModal() {
     <div
       class="mt-32 flex flex-col items-center gap-y-20 xl:flex-row xl:justify-center xl:gap-x-[74px]"
     >
-      <founder v-for="founder in founders" :founder="founder" />
+      <Founder v-for="founder in founders" :founder="founder" />
     </div>
     <h2
       class="mt-28 flex justify-center text-3xl font-black leading-6 text-primary"

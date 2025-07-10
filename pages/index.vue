@@ -15,6 +15,12 @@
   </div>
 </template>
 
-<script setup></script>
+<script lang="ts" setup>
+defineOgImageComponent("TestOg", {
+  title: "Hello OG Image 👋",
+  description: "Hey Whatsapp! man are you good?",
+  borderColor: "green",
+});
+</script>
 
 <style scoped></style>
