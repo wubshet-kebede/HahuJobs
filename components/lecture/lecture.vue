@@ -16,7 +16,7 @@ const props = defineProps({
 
 <template>
   <h1
-    class="lg:mt-20 text-2xl font-bold lg:leading-[40px] text-hahu-gray1 dark:text-hahu-gray3 xl:text-3xl"
+    class="lg:mt-20 text-2xl font-bold lg:leading-[40px] text-hahu-gray1 dark:text-hahu-gray3 xl:text-3xl mt-10"
   >
     {{ lecturer.title }}
   </h1>

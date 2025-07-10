@@ -7,10 +7,12 @@ const { lectureSeries } = useBloglecture();
     <section
       class="mt-3 flex w-11/12 xs:w-9/12 md:w-8/12 flex-col rounded-xl bg-white dark:bg-hahu-gray1 px-4 xs:px-10 sm:px-10 md:px-20 xl:px-20 2xl:px-20"
     >
-      <div class="relative mt-6 flex lg:justify-between font-bold justify-end">
+      <div
+        class="relative mt-6 flex lg:justify-between font-bold justify-start lg:mb-10"
+      >
         <nav class="flex self-start mt-2">
           <ol
-            class="flex space-x-4 rounded-md bg-white dark:bg-light-dark px-5 py-2 xs:px-6 shadow"
+            class="flex space-x-4 rounded-md bg-white dark:bg-light-dark px-2 py-2 xs:px-6 shadow"
           >
             <Li class="flex">
               <div class="flex items-center">
