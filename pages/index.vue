@@ -21,6 +21,10 @@ defineOgImageComponent("TestOg", {
   description: "Hey Whatsapp! man are you good?",
   borderColor: "green",
 });
+useSeoMeta({
+  description:
+    "Hello HaHuJobs is the software enterprise developed my minab IT solutions to solve any obstacles for job seekers!",
+});
 </script>
 
 <style scoped></style>
