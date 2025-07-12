@@ -43,7 +43,7 @@
         stand at the forefront of the local digital job matching industry.
       </p>
       <div class="mt-5 md:mt-14 3xl:20 flex">
-        <NuxtLink to="/services" class="group">
+        <NuxtLink to="/#services" class="group">
           <button
             class="flex items-center self-center rounded-md bg-primary py-3 px-5 text-white cursor-pointer"
           >

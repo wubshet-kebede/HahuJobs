@@ -55,7 +55,7 @@
         class="flex pb-5 py-4 flex-col items-center justify-end space-y-10 bg-white px-8 duration-500 ease-in dark:bg-dark_bg md:px-[50px] lg:mb-0 lg:flex-row lg:justify-between lg:space-y-0 xl:px-[100px]"
       >
         <h1 class="text-base font-medium leading-6 text-gray-400">
-          © 2022 HaHuJobs. All rights reserved.
+          © 2025 HaHuJobs. All rights reserved.
         </h1>
 
         <div class="md:ml-10 flex space-x-7 lg:mr-20">
